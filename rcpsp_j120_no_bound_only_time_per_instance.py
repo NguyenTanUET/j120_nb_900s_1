@@ -130,7 +130,7 @@ def main():
     os.makedirs(result_dir, exist_ok=True)
 
     # Define the range of files to process
-    start_file = "j12010_1.data"  # File bắt đầu
+    start_file = "j12028_10.data"  # File bắt đầu
     end_file = "j12037_9.data"  # File kết thúc (bạn có thể thay đổi tên file này)
 
     # Find all .data files in the data directory
