@@ -285,7 +285,7 @@ def main():
     client = storage.Client()
     bucket = client.bucket(bucket_name)
 
-    local_path = "result/j120_with_bound_900s.csv_1"
+    local_path = "result/j120_with_bound_900s_1.csv"
     blob_name = f"results/{os.path.basename(local_path)}"  # ví dụ "results/j120_with_bound_900s_1.csv"
 
     blob = bucket.blob(blob_name)
